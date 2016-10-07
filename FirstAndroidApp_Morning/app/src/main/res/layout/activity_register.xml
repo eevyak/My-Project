@@ -14,21 +14,18 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/temail"
-        android:layout_alignBaseline="@+id/pass"
-        android:layout_alignBottom="@+id/pass"
-        android:layout_alignLeft="@+id/tpass"
-        android:layout_alignStart="@+id/tpass"
-        android:layout_alignRight="@+id/tcpass"
-        android:layout_alignEnd="@+id/tcpass" />
+        android:layout_below="@+id/editlname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp" />
 
     <EditText
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:id="@+id/tpass"
-        android:layout_above="@+id/temail"
-        android:layout_alignLeft="@+id/tcpass"
-        android:layout_alignStart="@+id/tcpass"
-        android:layout_marginBottom="37dp" />
+        android:layout_above="@+id/tcpass"
+        android:layout_alignLeft="@+id/temail"
+        android:layout_alignStart="@+id/temail" />
 
     <EditText
         android:layout_width="280dp"
@@ -47,7 +44,7 @@
         android:text="email address"
         android:id="@+id/email"
         android:textSize="30px"
-        android:layout_alignBottom="@+id/tpass"
+        android:layout_alignBottom="@+id/temail"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
